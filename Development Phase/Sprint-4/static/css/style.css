@@ -1,0 +1,147 @@
+/*for index.html*/
+
+body {
+  background-image: url(/static/img/college.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+.container {
+  display: flex;
+  height: 120vh;
+  justify-content:center;
+}
+
+.left {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header > h4 {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  color:darkgoldenrod;
+}
+
+label {
+  margin-top: 5px;
+  font-weight:bold;
+  font-size: 15px;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+  max-width: 110%;
+  display: flex;
+  flex-direction: column;
+}
+.form > p {
+  text-align: right;
+}
+.form > p > a {
+  color: #000;
+  font-size: 14px;
+}
+
+.form-field {
+  height: 25px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  outline: 0;
+  transition: .2s;
+}
+
+.form-field:focus {
+  border-color: #0f7ef1;
+}
+
+
+button {
+  align-self: auto;
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,blueviolet); 
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 140px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+}
+/*for chance.html*/
+
+.predict{
+    background-image: url(/static/img/chance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+.prediction-box{
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -30%);
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+
+.prediction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin-block: 20px;
+}
+
+.prediction h3{
+    text-decoration: underline;
+}
+.btns{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #fff;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+/*for nochance.html*/
+.predict1{
+    background-image: url(/static/img/nochance.jpg);
+    background-size:600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+
